@@ -25,7 +25,7 @@ func init() {
 	for _, cidr := range []string{
 		// RFC 1918: private IPv4 networks
 		"10.0.0.0/8",
-		"172.16.0.0/12",
+		//"172.16.0.0/12",
 		"192.168.0.0/16",
 		// RFC 4193: IPv6 ULAs
 		"fc00::/7",
